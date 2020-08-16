@@ -2,7 +2,7 @@ export default class Player{
 constructor(symbole){
 this.symbole= symbole;
 this.cellNumbers = [];
-this.score = 0;
+this.score = 0 ;
 }
 getSymbole(){
     return this.symbole;
