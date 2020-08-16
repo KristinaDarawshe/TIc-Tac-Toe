@@ -18,7 +18,6 @@ export default class GamePlay {
         let builder = new GameBuilder();
         builder.endGame();
       }, 1000);
-      console.log(this.playingPalyer.symbole + score);
     } else {
       this.gamebuilder.xoInsertion(this.playingPalyer.symbole, index);
       this.playingPalyer =
